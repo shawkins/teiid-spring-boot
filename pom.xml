@@ -346,6 +346,11 @@
       </dependency>
       <dependency>
         <groupId>org.teiid.connectors</groupId>
+        <artifactId>file-api</artifactId>
+        <version>${teiid.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.teiid.connectors</groupId>
         <artifactId>translator-ws</artifactId>
         <version>${teiid.version}</version>
       </dependency>
@@ -785,6 +790,11 @@
       <dependency>
         <groupId>org.teiid</groupId>
         <artifactId>spring-data-cassandra</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.teiid</groupId>
+        <artifactId>spring-data-hdfs</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
